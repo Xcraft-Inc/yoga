@@ -9,7 +9,7 @@
  */
 
 const Yoga = require('./entry-common');
-const nbind = require('nbind');
+const nbind = require('@mcesystems/nbind');
 const {bind, lib} = nbind.init(__dirname + '/../');
 module.exports = Yoga(bind, lib);
 export type {
